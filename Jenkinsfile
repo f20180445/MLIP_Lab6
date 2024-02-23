@@ -20,7 +20,7 @@ pipeline {
                 python3 -m venv venv
                 source venv/bin/activate
 
-                pip3 install pytest
+                pip3 install -r requirements.txt
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
