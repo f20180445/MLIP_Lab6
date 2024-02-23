@@ -17,7 +17,10 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
+                python3 -m venv venv
                 source venv/bin/activate
+
+                pip3 install pytest
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
